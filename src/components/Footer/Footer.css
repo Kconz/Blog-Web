@@ -1,0 +1,15 @@
+.footer{
+    padding: 30px 112px;
+}
+.copy-right{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.copy-right p {
+    font-size: 18px;
+    text-align: center;
+}

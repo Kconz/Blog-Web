@@ -1,0 +1,65 @@
+.container-navbar {
+  width: 100%;
+  padding: 30px 112px;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+.sub-menu {
+  font-size: 20px;
+}
+.sub-menu:hover {
+  border-bottom: 1px solid #48abe0;
+}
+.logo-small {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1.logo {
+  font-size: 40px;
+  background: -webkit-linear-gradient(0deg, #d46f6f 0%, #48abe0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+h1.logo:hover {
+  transform: scale(1.4);
+}
+.close{
+  display: none;
+}
+.burger{
+  width: 2rem;
+  height: 2rem;
+  /* position: absolute; */
+  /* top: 15px;
+  right: 20px; */
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+  margin-top: 15px;
+  cursor: pointer;
+  display: none;
+  /* background-color: #48abe0; */
+}
+.burger div{
+  width: 2rem;
+  height: .25rem;
+  background-color: #48abe0;
+  border-radius: 4px;
+}
+

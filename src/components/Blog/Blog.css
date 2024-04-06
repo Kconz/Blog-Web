@@ -1,0 +1,26 @@
+.warp-blog-content {
+  min-height: 100vh;
+  padding: 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.warp-blog-content h1 {
+  margin: 1.5rem 0;
+}
+.warp-blog-content .content {
+  padding: 1.5rem;
+  font-size: 17px;
+}
+.warp-blog-content img {
+    width: 100%;
+    height: 100%;
+}
+.author {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 900;
+  border-bottom: 2px solid orange;
+  padding: 1.8rem;
+}
+

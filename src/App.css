@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.light-theme {
+  background: #eee;
+  color: #383838;
+  transition: all 0.4s ease-in-out;
+}
+.dark-theme {
+  background: #090d1f;
+  color: #eee;
+  transition: all 0.4s ease-in-out;
+}

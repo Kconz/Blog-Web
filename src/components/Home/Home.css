@@ -1,0 +1,104 @@
+.warp-home {
+  min-height: 100vh;
+}
+.img-home{
+  width: 100%;
+  height: 100%;
+  margin-top: 5rem;
+}
+.hero-header {
+  text-align: center;
+  font-size: 66px;
+  text-transform: uppercase;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: url("https://images.unsplash.com/photo-1528823058139-7dae32fa5734?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  color: transparent;
+}
+.hero-header::before,
+.hero-header::after {
+  display: inline-block;
+  width: 100%;
+  content: "";
+  position: relative;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #11998e;
+}
+section.blog-wrapper {
+  padding: 30px 30px;
+}
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
+.input {
+  padding: 7px;
+  width: 80%;
+  outline: 0;
+  border: 0;
+  font-size: 1.3rem;
+  transition: border-color 0.2s;
+  border-bottom: 2px solid #9b9b9b;
+  color: inherit;
+  background: transparent;
+}
+&::placeholder {
+  color: transparent;
+}
+.input:focus {
+  transition: 0.2s;
+  font-size: 1.3rem;
+  color: #11998e;
+  font-weight: 700;
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+}
+.container-blog {
+  /* width: 1790px; */
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+.blog-post-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: auto;
+  cursor: pointer;
+  box-shadow: #9b9b9b 0px 2px 5px;
+  padding: 10px 15px;
+}
+img {
+  width: 100%;
+  height: 333px;
+  object-fit: cover;
+}
+.blog-detail {
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+.text-heading {
+  font-size: 24px;
+  text-align: start;
+}
+.text-heading:hover {
+  border-bottom: 1px solid #9b9b9b;
+}
+.sub-text {
+  margin-top: 10px;
+}
+.hamburger-menu {
+  display: none;
+}
